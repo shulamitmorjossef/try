@@ -4,8 +4,8 @@
 
 This repository is part of the academic course - Numerical-Analysis in [SCE - Shamoon College of Engineering](https://sce.ac.il).
 
-The repo contains an implementation of methods that will be learned within the course to solve numerical analysis problems.<br>               
-Each method has an explanation in a separate file and a runnable example to assist in understanding and applying these methods.<br>                  
+The repo contains an implementation of methods that will be learned within the course to solve numerical analysis problems.               
+Each method has an explanation in a separate file and a runnable example to assist in understanding and applying these methods.                 
 The algorithms in this repo are based on the book "Numerical Analysis" by Richard L. Burden and J. Douglas Faires. You can find the book [here](https://faculty.ksu.edu.sa/sites/default/files/numerical_analysis_9th.pdf).
 
 ## Implemented Methods

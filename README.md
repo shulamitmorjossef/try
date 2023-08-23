@@ -15,7 +15,7 @@ The following numerical methods are currently implemented in this repository:
 3. Jacobi
 4. SOR - Successive Over Relaxation
    
-#### Roots Finding  :
+#### Roots Finding -Iterative Methods for Nonlinear Systems :
 1. The Bisection method.
 2. Newton Raphson method.
 3. Secant method.

@@ -9,11 +9,11 @@ The repo contains an implementation of methods that will be learned within the c
 ## Implemented Methods
 The following numerical methods are currently implemented in this repository:
 
-#### Iterative Techniques in Matrix Algebra:
-1. Gauss Siedle
-2. Gauss elimination
-3. Jacobi
-4. SOR - Successive Over Relaxation
+#### Methods for Solving Linear Systems of Equations:
+1. Gauss elimination
+3. Gauss Siedle
+4. Jacobi
+5. SOR - Successive Over Relaxation
    
 #### Roots Finding -Iterative Methods for Nonlinear Systems :
 1. The Bisection method.

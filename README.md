@@ -11,6 +11,7 @@ The following numerical methods are currently implemented in this repository:
 
 #### Methods for Solving Linear Systems of Equations:
 1. Gauss elimination
+2. LU factorization
 3. Gauss Siedle
 4. Jacobi
 5. SOR - Successive Over Relaxation
@@ -21,10 +22,10 @@ The following numerical methods are currently implemented in this repository:
 3. Secant method.
 
 #### Interpolation and Polynomial Approximation:
-3. LaGrange
-4. Neville
-5. Cubic Spline
-6. Vandermonde
+1. LaGrange
+2. Neville
+3. Cubic Spline
+4. Vandermonde
 
 #### Numerical Integration methods:
 1. Romberg

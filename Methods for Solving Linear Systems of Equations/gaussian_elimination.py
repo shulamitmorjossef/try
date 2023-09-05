@@ -1,7 +1,6 @@
 import numpy as np
-from numpy.linalg import norm, inv
-
 from colors import bcolors
+from matrix_utility import swap_row
 
 
 def gaussianElimination(mat):
@@ -20,13 +19,6 @@ def gaussianElimination(mat):
     return backward_substitution(mat)
 
 
-# function for elementary operation of swapping two rows
-def swap_row(mat, i, j):
-    N = len(mat)
-    for k in range(N + 1):
-        temp = mat[i][k]
-        mat[i][k] = mat[j][k]
-        mat[j][k] = temp
 
 
 def forward_substitution(mat):

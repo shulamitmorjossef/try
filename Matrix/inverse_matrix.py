@@ -9,7 +9,7 @@ The resulting identity matrix will be the inverse of the input matrix if it is n
  If the input matrix is singular (i.e., its diagonal elements become zero during row operations), it raises an error.
 """
 
-def matrix_inverse(matrix):
+def inverse(matrix):
     print(bcolors.OKBLUE, f"=================== Finding the inverse of a non-singular matrix using elementary row operations ===================\n {matrix}\n", bcolors.ENDC)
     if matrix.shape[0] != matrix.shape[1]:
         raise ValueError("Input matrix must be square.")
@@ -54,7 +54,7 @@ if __name__ == '__main__':
                   [3, 4, 6]])
 
     try:
-        A_inverse = matrix_inverse(A)
+        A_inverse = inverse(A)
         print(bcolors.OKBLUE, "\nInverse of matrix A: \n", A_inverse)
         print("=====================================================================================================================", bcolors.ENDC)
 

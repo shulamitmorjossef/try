@@ -4,7 +4,7 @@
 
 This repository is part of the academic course - Numerical-Analysis in [SCE - Shamoon College of Engineering](https://sce.ac.il).
 
-The repo contains an implementation of methods that will be learned within the course to solve numerical analysis problems. Each method has an explanation in a separate file and a runnable example to assist in understanding and applying these methods. The algorithms in this repo are based on the book "Numerical Analysis" by Richard L. Burden and J. Douglas Faires. You can find the book [here](https://faculty.ksu.edu.sa/sites/default/files/numerical_analysis_9th.pdf).
+The repo contains an implementation of methods that will be learned within the course to solve numerical analysis problems. Each method has an explanation in a PDF file and a runnable example to assist in understanding and applying these methods. The algorithms in this repo are based on the book "Numerical Analysis" by Richard L. Burden and J. Douglas Faires. You can find the book [here](https://faculty.ksu.edu.sa/sites/default/files/numerical_analysis_9th.pdf).
 
 ## Implemented Methods
 The following numerical methods are currently implemented in this repository:
@@ -12,7 +12,7 @@ The following numerical methods are currently implemented in this repository:
 #### Methods for Solving Linear Systems of Equations:
 1. Gauss elimination
 2. LU factorization
-3. Gauss Siedle
+3. Gauss Seidel
 4. Jacobi
 5. SOR - Successive Over Relaxation
    
@@ -22,10 +22,11 @@ The following numerical methods are currently implemented in this repository:
 3. Secant method.
 
 #### Interpolation and Polynomial Approximation:
-1. LaGrange
-2. Neville
-3. Cubic Spline
-4. Vandermonde
+1. Linear Interpolation
+2. Polynomial Interpolation
+3. LaGrange
+4. Neville
+5. Cubic Spline
 
 #### Numerical Integration methods:
 1. Romberg

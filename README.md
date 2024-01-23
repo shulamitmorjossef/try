@@ -1,6 +1,7 @@
 # Numerical-Analysis-2023
 
-<a href='https://www.linkpicture.com/view.php?img=LPic64e649aa7f497258249245'><img src='https://www.linkpicture.com/q/qoute.jpg' type='image'></a>
+<img src="https://github.com/lihiSabag/Numerical-Analysis-2023/blob/a895d4d59311bc17c04d25ced37daab2dc38812d/numerical%20anlysis.jpg" align="center"
+     alt="logo" width="600" height="400">
 
 This repository is part of the academic course - Numerical-Analysis in [SCE - Shamoon College of Engineering](https://sce.ac.il).
 

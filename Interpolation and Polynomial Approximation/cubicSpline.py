@@ -1,4 +1,4 @@
-import jacobi_gauss
+import jacobi_utilities
 from sympy import *
 
 x = Symbol('x')
@@ -58,7 +58,7 @@ def natural_cubic_spline(f, x0):
 
     # get m vector
     print("\nJacobi middle results: ")
-    M = (jacobi_gauss.Jacobi(mat, d))
+    M = (jacobi_utilities.Jacobi(mat, d))
     print("\nvector M: " + str(list(map(float, M))))
 
     # find S:
@@ -92,8 +92,6 @@ if __name__ == '__main__':
     f = [(1, 1), (2, 2), (3, 1), (4, 1.5), (5, 1)]
     x0 = 6
 
-    # f = [(0, 10), (0.5, 8), (1, 5), (2, 2), (3, 1)]
-    x0 = 0.75
     print("func: " + str(f))
     print("x0 = " + str(x0) + "\n")
     natural_cubic_spline(f, x0)

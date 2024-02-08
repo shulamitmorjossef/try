@@ -34,7 +34,7 @@ def inverse(matrix):
 
         # Zero out the elements above and below the diagonal
         for j in range(n):
-            if i != j:
+            if i != j: 
                 scalar = -matrix[j, i]
                 elementary_matrix = row_addition_elementary_matrix(n, j, i, scalar)
                 print(f"elementary matrix for R{j+1} = R{j+1} + ({scalar}R{i+1}):\n {elementary_matrix} \n")
